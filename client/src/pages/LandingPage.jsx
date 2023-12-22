@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Typography, Button, TextField } from '@mui/material';
 import { Element } from 'react-scroll';
-
-// Import your logo image
+import axios from 'axios';
 import logoImage from '../assets/logo-black.png';
 
 const LandingPage = () => {
@@ -18,14 +17,25 @@ const LandingPage = () => {
     setMessage(event.target.value);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    // Here, you can perform actions with the collected email and message
-    console.log(`Email: ${email}`);
-    console.log(`Message: ${message}`);
-    // Reset the form fields after submission
-    setEmail('');
-    setMessage('');
+
+    try {
+      const response = await axios.post('http://localhost:5000/send_email', {
+        email:email,
+        message:message,
+      });
+
+      if (response.status === 200) {
+        console.log(response.data)
+        setEmail('');
+        setMessage('');
+      } else {
+        console.error('Failed to send email');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
   };
 
   useEffect(() => {
@@ -40,7 +50,7 @@ const LandingPage = () => {
     };
   }, []);
 
-  const opacity = 1 - scrollPosition / 300; // Change the divisor to adjust fading speed
+  const opacity = 1 - scrollPosition / 300;
 
   return (
     <Element name="landingPage">
