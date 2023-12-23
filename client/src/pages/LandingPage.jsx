@@ -53,7 +53,7 @@ const LandingPage = () => {
   const opacity = 1 - scrollPosition / 300;
 
   return (
-    <Element name="landingPage">
+    <Element name="landingPage" >
       <Container style={{ opacity }}>
         <img src={logoImage} alt="Logo" style={{ maxWidth: '200px', marginBottom: '20px' }} />
         <Typography variant="h2">Welcome to LunarGen</Typography>
