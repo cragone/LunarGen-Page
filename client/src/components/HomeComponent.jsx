@@ -28,10 +28,10 @@ const HomeComponent = () => {
                     </div>
                     {/* second card */}
                     <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                        <figure><img src="https://images.wisegeek.com/slideshow-mobile-small/female-doctor-in-lab-coat-looking-through-black-microscope.jpg" alt="Assets" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h2 class="card-title">Asset Management</h2>
+                            <p>GMP Compliant Asset systems, with faster systems then ever.</p>
                             <div class="card-actions justify-end">
                                 <button class="btn btn-primary">Buy Now</button>
                             </div>
@@ -39,10 +39,10 @@ const HomeComponent = () => {
                     </div>
                     {/* third card */}
                     <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                        <figure><img src="https://www.a3p.org/wp-content/uploads/2022/07/Aseptic_manufacturing-processes_la_vague_74_a3p.png" alt="Shoes" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h2 class="card-title">Sample Management Systems</h2>
+                            <p>Upgrade or implement faster, safer, compliant sample management.</p>
                             <div class="card-actions justify-end">
                                 <button class="btn btn-primary">Buy Now</button>
                             </div>
@@ -67,10 +67,10 @@ const HomeComponent = () => {
                     </div>
                     {/* second second layer card */}
                     <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                        <figure><img src="https://ecommercialplastics.com/wp-content/uploads/2016/09/871x430-LEAN-news.jpg" alt="Shoes" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h2 class="card-title">Work Allocation</h2>
+                            <p>Track workflows, track worked hours, track assignments. We can Do it all!</p>
                             <div class="card-actions justify-end">
                                 <button class="btn btn-primary">Buy Now</button>
                             </div>
@@ -78,10 +78,10 @@ const HomeComponent = () => {
                     </div>
                     {/* third second layer card */}
                     <div class="card w-96 bg-base-100 shadow-xl">
-                        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+                        <figure><img src="https://ensearch.com/wp-content/uploads/2014/04/interview_handshake.jpeg" alt="Shoes" /></figure>
                         <div class="card-body">
-                            <h2 class="card-title">Shoes!</h2>
-                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                            <h2 class="card-title">System Solutions</h2>
+                            <p>We help develop onsite system solutions, and custom software for you!</p>
                             <div class="card-actions justify-end">
                                 <button class="btn btn-primary">Buy Now</button>
                             </div>
