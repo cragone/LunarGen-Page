@@ -1,15 +1,24 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import LandingPage from './pages/LandingPage';
+import ContactPage from './containers/ContactPage';
+import Navbar from './components/DaisyuiNavBar';
+import HomePage from './containers/HomePage';
 
 function App() {
   return (
+    <div>
+    <div>
+      <Navbar />
+    </div>
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+      <Route path="/" element={<HomePage />} />
+        <Route path="/ContactPage" element={<ContactPage />} />
         {/* Add more routes for other pages if needed */}
       </Routes>
     </Router>
+    </div>
+
   );
 }
 
