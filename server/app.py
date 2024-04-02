@@ -16,9 +16,8 @@ mail = Mail(app)
 
 @app.route('/send_email', methods=['POST'])
 def send_email():
+    print("received request")
     if request.method == 'POST':
-        # email = request.form.get('email')
-        # message = request.form.get('message')
         email = request.json["email"]
         message = request.json["message"]
         if email and message:
