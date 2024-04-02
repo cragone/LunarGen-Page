@@ -1,8 +1,9 @@
 import React from 'react';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
-import ContactPage from './containers/ContactPage';
+import StoryPage from './containers/StoryPage';
 import Navbar from './components/DaisyuiNavBar';
 import HomePage from './containers/HomePage';
+import ContactPage from './containers/ContactPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
       <Route path="/" element={<HomePage />} />
         <Route path="/ContactPage" element={<ContactPage />} />
+        <Route path="/StoryPage" element={<StoryPage />} />
         {/* Add more routes for other pages if needed */}
       </Routes>
     </Router>

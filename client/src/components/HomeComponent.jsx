@@ -52,7 +52,6 @@ const HomeComponent = () => {
             </section>
 
             <section className="my-8">
-                <h2 className="text-2xl font-bold mb-4">Our Team Assists with:</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {/* first second layer card */}
                     <div class="card w-96 bg-base-100 shadow-xl">
