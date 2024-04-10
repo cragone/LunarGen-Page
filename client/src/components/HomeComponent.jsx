@@ -5,7 +5,7 @@ const HomeComponent = () => {
     return (
         <div className="container mx-auto h-full">
             <header>
-                <h1 className="text-3xl font-bold text-center my-8">Welcome to Lunar Gen</h1>
+                <h1 className="text-3xl font-bold text-center my-8">Welcome to LunarGen</h1>
                 <p className="text-center mb-8">We work with you to bring business changing software.</p>
             </header>
 
@@ -90,8 +90,9 @@ const HomeComponent = () => {
             </section>
 
             <section className="my-8">
-                <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-                <p>Contact information and contact form can go here.</p>
+                <h2 className="text-2xl font-bold mb-4">Meet Our Team</h2>
+                <p className="text-xl">At the intersection of technology and biotech, our team of seasoned developers stands ready to transform your software needs into reality. We are not just developers; we are your partners in innovation. We come to you, immersing ourselves in your environment to understand your unique challenges and aspirations. Our approach is rooted in collaboration and co-creation, ensuring that the software we develop is perfectly tailored to your needs. Our team combines speed, efficiency, and a deep understanding of the biotech industry to deliver software solutions that truly make a difference. We understand the intricacies of the validation process and the high stakes involved in biotech. By working onsite with you, we ensure that every piece of software we develop is not only efficient and innovative, but also reliable and compliant. With us, you're not just getting a software solution; you're getting a dedicated team committed to your success.</p>
+               
             </section>
         </div>
     );
