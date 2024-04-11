@@ -1,6 +1,8 @@
-import React from "react";
+import React, {useContext} from "react";
+import LoadingContext from "../components/LoadingContext";
 
 const StoryPage = () => {
+  const { setLoading } = useContext(LoadingContext);
 
   return (
     <div className="h-screen bg-base-100 shadow-xl p-10">

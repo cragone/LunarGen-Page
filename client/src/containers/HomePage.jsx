@@ -1,7 +1,9 @@
-import React from "react";
+import React, {useContext} from "react";
 import HomeComponent from "../components/HomeComponent";
+import LoadingContext from "../components/LoadingContext";
 
 const HomePage = () => {
+    const { setLoading } = useContext(LoadingContext);
 
 
     return (
