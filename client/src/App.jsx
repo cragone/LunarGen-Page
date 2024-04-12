@@ -4,14 +4,10 @@ import StoryPage from './containers/StoryPage';
 import Navbar from './components/DaisyuiNavBar';
 import HomePage from './containers/HomePage';
 import ContactPage from './containers/ContactPage';
-import LoadingContext from './components/LoadingContext';
 
 function App() {
-  const [loading, setLoading] = useState(false);
 
   return (
-    <LoadingContext.Provider value={{ loading, setLoading }}>
-      {loading && <img src="https://loading.io/asset/733820"/>}
       <div>
         <div>
           <Navbar />
@@ -25,7 +21,6 @@ function App() {
           </Routes>
         </Router>
       </div>
-    </LoadingContext.Provider>
   );
 }
 
