@@ -42,7 +42,7 @@ jobs:
           CI: false
 
       - name: Copy dist folder
-        run: cp ./client/dist ./server/dist
+        run: cp -r ./client/dist ./server/
 
       # - name: Create .env file
       #   env:
