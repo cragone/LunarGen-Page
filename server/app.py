@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 from flask_cors import CORS
 
-app = Flask(__name__, template_folder="./client/dist", static_folder="./client/dist/assets")
+app = Flask(__name__, template_folder="./dist", static_folder="./dist/assets")
 CORS(app)
 
 @app.route("/", defaults={"path": ""}, strict_slashes=False)
@@ -11,4 +11,4 @@ def catch_all(path):
     return render_template("index.html") 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80, debug=True)
+    app.run(host='0.0.0.0', port=80, debug=False)
